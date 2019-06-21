@@ -12,8 +12,10 @@ public class MathClassDemo {
     double bSq = Math.pow(b, 3);
     double c = Math.sqrt(aSq + bSq);
     double roundedC = Math.round(c);
+    double ceilC = Math.ceil(2.1);
 
     System.out.println("c = " + c + " which when rounded is: " + roundedC);
+    System.out.println("The ceil of 2.1 is;" + ceilC);
 
   }
 }
